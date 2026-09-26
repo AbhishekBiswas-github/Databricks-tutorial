@@ -16,7 +16,7 @@ from pyspark.sql import functions as F
 )
 @dp.expect(
     "recent_order",
-    "purchased_at >= TIMESTAMP '2026-01-01 00:00:00'"
+    "purchased_at >= TIMESTAMP '2026-06-16 00:00:00'"
 )
 def orders_cleaned():
 
